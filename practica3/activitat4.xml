@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Los datos que hay son los de diferentes libros de una libreria. 
+Cada uno tiene el titulo, la editorial, el tipo de tapa y su precio -->
+<bookstore>
+    <book>
+        <title>El señor de los anillos: Las dos torres</title>
+        <publisher>Tirant Lo Blanch</publisher>
+        <cover>Dura</cover>
+        <price>25</price>
+    </book>
+    <book>
+        <title>Harry Potter: El misterio del principe</title>
+        <publisher>Bloomsbury Salamandra Scholastic</publisher>
+        <cover>Dura</cover>
+        <price>30</price>
+    </book>
+    <book>
+        <title>Matematicas 2do Bachillerato</title>
+        <publisher>Vicent Vives</publisher>
+        <cover>Blanda</cover>
+        <price>15</price>
+    </book>
+    <book>
+        <title>La Sangre del Olimpo</title>
+        <publisher>Montena</publisher>
+        <cover>Dura</cover>
+        <price>30</price>
+    </book>
