@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Son el nom, cognom,email,dni i pais de procedencia de diferents estudiants-->
+<students>
+    <student pais="Espanya">
+        <name>Carlos</name>
+        <surname>Sanchez</surname>
+        <email>csanchez@jaumebalmes.net</email>
+        <dni>49583728J</dni>
+    </student>
+    <student pais="Italia">
+        <name>Carlini</name>
+        <surname>Sanchini</surname>
+        <email>csanchini@gmail.com</email>
+        <dni>34512378L</dni>
+    </student>
+    <student pais="Noruega">
+        <name>Karl</name>
+        <surname>Sonches</surname>
+        <email>ksonches@hotmail.com</email>
+        <dni>12398743H</dni>
+    </student>
+    <student pais="Alemanya">
+        <name>Carlen</name>
+        <surname>Sancher</surname>
+        <email>csancher@yahoo.com</email>
+        <dni>95835794A</dni>
+    </student>
+    <student pais ="Grecia">
+        <name>Corlas</name>
+        <surname>Sonchas</surname>
+        <email>csonchas@outlook.com</email>
+        <dni>24593278K</dni>
+    </student>
+</students>
