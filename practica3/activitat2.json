@@ -1,0 +1,37 @@
+{"students": {
+    "student": {
+        "pais":"Espanya",
+        "name":"Carlos",
+        "surname":"Sanchez",
+        "email":"csanchez@jaumebalmes.net",
+        "dni":"49583728J"
+    },
+    "student": {
+        "pais":"Italia",
+        "name":"Carlini",
+        "surname":"Sanchini",
+        "email":"csanchini@gmail.com",
+        "dni":"34512378L"
+    },
+    "student": {
+        "pais":"Noruega",
+        "name":"Karl",
+        "surname":"Sonches",
+        "email":"ksonches@hotmail.com",
+        "dni":"12398743H"
+    },
+    "student": {
+        "pais":"Alemanya",
+        "name":"Carlen",
+        "surname":"Sancher",
+        "email":"csancher@yahoo.com",
+        "dni":"95835794A"
+    },
+    "student": {
+        "pais":"Grecia",
+        "name":"Corlas",
+        "surname":"Sonchas",
+        "email":"csonchas@outlook.com",
+        "dni":"24593278K"
+    }
+}}
