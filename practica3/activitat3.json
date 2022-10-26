@@ -1,0 +1,29 @@
+{"bookstore": {
+    "book":[{
+        "title":"El señor de los anillos: Las dos torres",
+        "publisher":"Tirant Lo Blanch",
+        "cover":"Dura",
+        "price": 25
+    },
+     {
+        "title":"Harry Potter: El misterio del principe",
+        "publisher":"Bloomsbury Salamandra Scholastic",
+        "cover":"Dura",
+        "price": 30
+    },
+    {
+        "title":"Matematicas 2do Bachillerato",
+        "publisher":"Vicent Vives",
+        "cover":"Blanda",
+        "price": 15
+    },
+    {
+        "title":"La Sangre del Olimpo",
+        "publisher":"Montena",
+        "cover":"Dura",
+        "price": 30
+    }
+
+        
+    ] 
+}}
