@@ -1,0 +1,28 @@
+table{
+    /*Posiciono la taula a la meitat aproximada de la pantalla*/
+    position: relative;
+    top: 250px;
+    left: 450px;
+}
+table,th,td{
+    /*Faig el contorn de la taula*/
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+caption{
+    color:blue;
+    padding: 7px;
+}
+/*alineació de les dades i capçalera*/
+th{
+    background-color: rgb(177, 177, 177);
+    padding: 1px;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
