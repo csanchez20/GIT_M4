@@ -1,0 +1,22 @@
+/*
+    En table he puesto el borde de toda la tabla y el color del fondo.
+    En caption he puesto el color del fondo el borde y he puesto radio a las esquinas.
+    En tr y th he puesto el borde y he puesto un padding al igual que en th.
+*/
+table {border: 1px solid black; 
+    width: 500px; 
+    border-collapse: collapse;
+    background-color: #fff6c8ef;
+}
+caption{
+    border: 1px solid white;
+    background-color:#f0c174ef;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+tr th {border: 1px solid black; 
+    border-collapse: collapse;
+}
+td {border: 1px solid black; 
+    border-collapse: collapse;
+}
