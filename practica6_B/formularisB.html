@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <title>Practica6_B</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <!--Es pot veure tots els labels amb els seus input (cadascú d'un tipus diferent),
+        dos p, un textarea i tres tipus diferents de seleccionar varies opcions. -->
+        <!--Es pot veure que n'hi han molts br per fer salts de linea-->
+        <form action="arxiuExtern.php">
+        <label for="Nom">Nom</label><br>
+        <input type="text" id="Nom" name="Nom"><br>
+        <label for="Cognom">Cognom</label><br>
+        <input type="text" id="Cognom" name="Cognom"><br>
+        <label for="Edat">Edat</label><br>
+        <input type="number" id="Edat" name="Edat"><br><br>
+        <p>Cicle formatiu que es vol cursar l'any vinent</p>
+        <label for="DAM">DAM</label>
+        <input type="radio" id="DAM" name="grupA"><br>
+        <label for="ASIX">ASIX</label>
+        <input type="radio" id="ASIX" name="grupA"><br>
+        <label for="Altre">Altre...</label>
+        <input type="radio" id="Altre" name="grupA"><br><br>
+        <p>Marca les teves aficions:</p>
+        <label for="hobbies">Estudiar</label>
+        <input type="checkbox" id="hobbies" name="hobbies"><br>
+        <label for="hobbies">ASIX</label>
+        <input type="checkbox" id="hobbies" name="hobbies"><br>
+        <label for="hobbies">Llibres</label>
+        <input type="checkbox" id="hobbies" name="hobbies"><br>
+        <label for="hobbies">Jugar a Magic</label>
+        <input type="checkbox" id="hobbies" name="hobbies"><br>
+        <label for="hobbies">Fer burilles</label>
+        <input type="checkbox" id="hobbies" name="hobbies"><br>
+        <label>Altres</label><br>
+        <textarea name="hobbies" rows="10" cols="50"></textarea><br><br>
+        <label for="idioma">L'estàndard d'HTML que més m'agrada:</label>
+        <select id="idioma" name="idioma">
+            <option value="HTML4.01">HTML 4.01</option>
+            <option value="XHTML1.0">XHTML 1.0</option>
+            <option value="HTML5" selected>HTML5</option>
+        </select>
+        </form>
+    </body>
+</html>
