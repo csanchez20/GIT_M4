@@ -1,0 +1,36 @@
+/*Tant el quadrat vermell com el blau son de posició absoluta en relació de la pagina, mentre que el groc i el verd son absolut ya que
+estan posats en relacio als quadrats grans*/
+
+#rojo{
+    background-color: rgb(219, 1, 1);
+    width: 160px;
+    height: 120px;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+#verde{
+    background-color: rgb(2, 175, 2);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 60px;
+    left: 100px;  
+}
+#azul{
+    background-color: rgb(50, 50, 243);
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#amarillo{
+    background-color: rgb(238, 238, 25);
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 20px;
+}
+
