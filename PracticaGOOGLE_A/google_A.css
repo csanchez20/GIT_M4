@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+a:hover{
+    text-decoration-line: underline;
+}
+a.blanc{
+    color: white;
+}
+a.grey{
+    color: gray;
+}
+body{
+    background-color: rgba(32,33,36,255);
+}
+#azul{
+    border-radius: 5px;
+    background-color: rgb(106, 191, 219);
+    padding:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#izquierda1{
+    position:absolute;
+}
