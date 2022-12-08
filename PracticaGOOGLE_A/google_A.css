@@ -1,12 +1,14 @@
-
+*{
+    margin:0;
+}
 body{
     background-color: rgba(32,33,36,255);
+    font-family: arial,sans-serif;
 }
 .divcontainer1{
     display: flex;
     align-items: center;
     padding: 6px;
-    font-family: arial,sans-serif;
 }
 .div_itemIZQ,.div_itemDCH{
     display: flex;
@@ -86,7 +88,6 @@ a.blanc:hover,a.grey:hover{
     color: #e8eaed;
     background-color: transparent;
     border-color: transparent;
-    font-family: arial,sans-serif;
     width:420px;
 }
 .lupa{
@@ -97,7 +98,6 @@ a.blanc:hover,a.grey:hover{
 }
 .Botons{
     margin-bottom: 20px;
-    font-family: arial,sans-serif;
 }
 .boton1,.boton2{
     background-color: #303134;
@@ -113,23 +113,36 @@ a.blanc:hover,a.grey:hover{
 .Ofrecido{
     color: #bdc1c6;
     margin-right: 20px;
-    font-family: arial,sans-serif;
     font-size: small;
 }
 .catalan,.ingles{
-    font-family: arial,sans-serif;
     margin-right: 15px;
     font-size: small;
 }
 .footer1{
     display: flex;
-    border: 3px solid red;
     align-self: flex-end;
     align-items: center;
+    background-color: rgb(21, 19, 19);
+    padding: 10px;
+    margin-bottom: 1px;
 }
 .footer2{
     display: flex;
-    border: 3px solid green;
-    align-self: flex-end;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
+    background-color: rgb(21, 19, 19);
+    padding: 20px;
+}
+#planta{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+#Pub,#Emp,#Com{
+    margin-right: 20px;
+}
+#Priv,#Ter,#Conf{
+    margin-left: 20px;
 }
