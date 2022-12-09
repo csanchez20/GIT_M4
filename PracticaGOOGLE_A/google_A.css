@@ -50,10 +50,10 @@ a.grey,a.grey2{
 a.blanc:hover,a.grey:hover{
     text-decoration: underline;
 }
-.catalan,.ingles{
+.idioma1,.idioma2{
     color: blue;
 }
-.catalan:hover,.ingles:hover,#Conf:hover{
+.idioma1:hover,.idioma2:hover,#Conf:hover{
     text-decoration: underline;
 }
 #Pub:hover, #Emp:hover,#Ter:hover{
@@ -115,7 +115,7 @@ a.blanc:hover,a.grey:hover{
     margin-right: 20px;
     font-size: small;
 }
-.catalan,.ingles{
+.idioma1,.idioma2{
     margin-right: 15px;
     font-size: small;
 }
