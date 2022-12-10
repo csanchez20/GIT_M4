@@ -1,10 +1,16 @@
 *{
     margin:0;
+    padding: 0;
 }
-body{
+/* Si no pongo la altura i el flex el footer no se queda abajo del todo */
+html,body{
     background-color: rgba(32,33,36,255);
     font-family: arial,sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+/*Maquetacion del header*/
 .divcontainer1{
     display: flex;
     align-items: center;
@@ -34,6 +40,7 @@ body{
 #item6{
     margin-right: 5%;
 }
+/*boton de iniciar sesion*/
 #azul{
     border-radius: 5px;
     background-color: rgb(106, 191, 219);
@@ -41,6 +48,7 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
+/*Color de la mayoria del texto del documento, i la decoracion de subrallado de alguna parte del mismo*/
 a.blanc{
     color: white;
 }
@@ -62,6 +70,17 @@ a.blanc:hover,a.grey:hover{
 #Com:hover,#Emi:hover,#Priv:hover{
     text-decoration: underline;
 }
+.Ofrecido{
+    color: #bdc1c6;
+    margin-right: 20px;
+    font-size: small;
+}
+.idioma1,.idioma2{
+    margin-right: 15px;
+    font-size: small;
+    text-decoration: none;
+}
+/*Maquetacion del main*/
 .divcontainer2{
     margin-top: 80px;
     display: flex;
@@ -110,14 +129,9 @@ a.blanc:hover,a.grey:hover{
     height: 36px;
     min-width: 54px;
 }
-.Ofrecido{
-    color: #bdc1c6;
-    margin-right: 20px;
-    font-size: small;
-}
-.idioma1,.idioma2{
-    margin-right: 15px;
-    font-size: small;
+/*Maquetacion del footer*/
+footer{
+    margin-top: auto;
 }
 .footer1{
     display: flex;
