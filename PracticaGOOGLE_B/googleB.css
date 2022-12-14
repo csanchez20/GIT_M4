@@ -32,49 +32,7 @@ button{
     padding-left: 10px;
     padding-right: 10px;
 }
-a.blanc{
-    color: white;
-}
-a.grey,a.grey2{
-    color: gray;
-}
-a.blanc:hover,a.grey:hover{
-    text-decoration: underline;
-}
-.idioma1,.idioma2{
-    color: blue;
-}
-.idioma1:hover,.idioma2:hover,#Conf:hover{
-    text-decoration: underline;
-}
-#Pub:hover, #Emp:hover,#Ter:hover{
-    text-decoration: underline;
-}
-#Com:hover,#Emi:hover,#Priv:hover{
-    text-decoration: underline;
-}
-.Ofrecido{
-    color: #bdc1c6;
-    margin-right: 20px;
-    font-size: small;
-}
-.idioma1,.idioma2{
-    margin-right: 15px;
-    font-size: small;
-    text-decoration: none;
-}
-.google{
-    margin-top: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.divcontainer3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 footer{
     margin-top: auto;
 }
@@ -85,21 +43,21 @@ footer{
     padding: 10px;
     margin-bottom: 1px;
 }
-.footE{
+.foot2{
     display: flex;
-    flex-wrap: wrap;
+    justify-items:flex-start;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
 }
-#planta{
+.foot3{
     display: flex;
+    justify-items:flex-end;
     align-items: center;
+    justify-content: space-between;
+}
+.inf,.pub,.emp{
     margin-right: 20px;
 }
-#Pub,#Emp,#Com{
-    margin-right: 20px;
-}
-#Priv,#Ter,#Conf{
+.pri,.con,.conf{
     margin-left: 20px;
 }
