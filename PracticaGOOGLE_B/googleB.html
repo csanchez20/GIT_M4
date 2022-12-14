@@ -3,9 +3,12 @@
     <head>
         <title>PracticaGOOGLE_B</title>
         <meta charset = "utf-8">
+        <!--Junto el documento css con la siguiente etiqueta-->
         <link rel="stylesheet" href="googleB.css">
     </head>
     <body>
+        <!--Dentro del body va el header con las etiquetas necesarias para que este ordenado; 
+            va el main, donde van las fotos y las listas; y tambien va el footer con sus etiquetas. -->
         <header>
             <div class="cap">
                 <a class="gmail">Gmail</a>
@@ -15,10 +18,13 @@
             </div>
         </header>
         <main>
-            <div class="google"><img src="google.png"/>
+            <div class="google"><img src="google.png"/></div>
             <div class="fotos">
-                <div class="fotoA"><img src="FotoA.PNG"/>
-                <div class="textA">
+                <div id="fotoA"><img src="FotoA.PNG"/></div>
+                <div id="fotoB"><img src="fotoB.PNG"/></div>
+            </div>
+            <div class="texts">
+                <div id="textA">
                     <li>
                         <ul>Carlos</ul>
                         <ul>Sánchez Dobaño</ul>
@@ -26,10 +32,7 @@
                         <ul>Tenir bones bases per trobar una bona feina</ul> 
                     </li>
                 </div>
-            </div>
-            <div class="fotos">
-                <div class="fotoB"><img src="fotoB.PNG"/>
-                <div class="textB">
+                <div id="textB">
                     <li>
                         <ul>Edgar</ul>
                         <ul>Romero Salgado</ul>
@@ -40,16 +43,16 @@
             </div>
         </main>
         <footer>
-            <div class="foot1">
-                <div>Espanya<div>
-            </div>
+            <div class="foot1">Espanya</div>
             <div class="foot2">
                 <a class="inf">Informació</a>
                 <a class="pub">Publicitat</a>
                 <a class="emp">Empresa</a>
-                <a class="pri">Privadesa</a>
-                <a class="con">Condicions</a>
-                <a class="conf">Configuració</a>
+                <div class="foot3">
+                    <a class="pri">Privadesa</a>
+                    <a class="con">Condicions</a>
+                    <a class="conf">Configuració</a>
+                </div>
             </div>
         </footer>
     </body>
