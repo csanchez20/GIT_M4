@@ -20,7 +20,7 @@ html,body{
     display: flex;
     align-items: center; 
 }
-.div_itemMID{
+.div_itemMID,#Espacio{
     flex-grow: 2;
 }
 #item1{
@@ -41,6 +41,9 @@ html,body{
     margin-right: 5%;
 }
 /*boton de iniciar sesion*/
+#azul:hover{
+    background-color: rgb(114, 199, 227);
+}
 #azul{
     border-radius: 5px;
     background-color: rgb(106, 191, 219);
@@ -115,8 +118,16 @@ a.blanc:hover,a.grey:hover{
 .camara{
     margin-right: 9px;
 }
+#Link{
+    text-decoration: none;
+    color: #e8eaed;
+}
+.boton1:hover,.boton2:hover{
+    border: 1px solid #5f6368;
+}
 .Botons{
     margin-bottom: 20px;
+    text-decoration: none;
 }
 .boton1,.boton2{
     background-color: #303134;
@@ -138,7 +149,7 @@ footer{
     align-self: flex-end;
     align-items: center;
     background-color: rgb(21, 19, 19);
-    padding: 10px;
+    padding: 15px 30px;
     margin-bottom: 1px;
 }
 .footer2{
@@ -147,16 +158,11 @@ footer{
     align-items: center;
     justify-content: space-between;
     background-color: rgb(21, 19, 19);
-    padding: 20px;
-}
-#planta{
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
+    padding: 0px 20px;
 }
 #Pub,#Emp,#Com{
-    margin-right: 20px;
+    padding: 20px;
 }
 #Priv,#Ter,#Conf{
-    margin-left: 20px;
+    padding: 20px;
 }
