@@ -1,13 +1,17 @@
+/*Con esto le quito el margen y padding por defecto*/
 *{
     margin:0;
     padding: 0;
 }
+/*Con esto le pongo la fuente y activo el display flex*/
 html,body{
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+/*Los 6 siguientes estilos es para el header y sirve para modificarlo para que se vea bien.
+    El justify-content: flex-end sirve para que el div se vaya al final. */
 .cap{
     display: flex;
     align-items: center;
@@ -28,32 +32,59 @@ html,body{
 button{
     border-radius: 5px;
     background-color: rgb(106, 191, 219);
+    color:white;    
     padding:10px;
     padding-left: 10px;
     padding-right: 10px;
 }
-
+button:hover{
+    background-color: rgb(0, 128, 255);
+}
+/*Los 5 siguientes estilos es para el body y se modifica para que se vea bien.
+    Con el justify-content: center; hago que todos los objetos esten centrados en la pagina
+    y con el text-align: center; hago que las listas esten centradas. */
+.google{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.fotos{
+    display: flex;
+    justify-content: center;
+}
+#fotoA{
+    margin-right: 260px;
+}
+.texts{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    list-style: none;
+}
+#textA{
+    margin-right: 50px;
+}
+/*Los 6 siguientes estilos es para el footer y sirven  para que se vea bien.*/
 footer{
     margin-top: auto;
+    margin-bottom: 10px;
 }
 .foot1{
     display: flex;
-    align-self: flex-end;
     align-items: center;
-    padding: 10px;
-    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 .foot2{
     display: flex;
-    justify-items:flex-start;
+    margin-left: 10px;
     align-items: center;
-    justify-content: space-between;
 }
 .foot3{
     display: flex;
-    justify-items:flex-end;
+    margin-left: 675px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 .inf,.pub,.emp{
     margin-right: 20px;
